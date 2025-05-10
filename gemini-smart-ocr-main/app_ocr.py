@@ -6,7 +6,7 @@ from time import sleep
 image_dir = "extracted_images"
 output_file = "extracted_images_info.json"
 
-API_KEY3 = "AIzaSyBzX-uvy-jqFJu1QYj8gGmYy4Uyu2blQck"
+API_KEY3 = ""
 def upload_to_gemini(file_path, mime_type=None):
     """Uploads a file to Gemini and returns the file object."""
     if not os.path.exists(file_path):
